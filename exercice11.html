@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>exercice11</title>
+	<script src="jquery-3.1.0.min.js" ></script>
+</head>
+<body>
+<h3>Vos coordonnées :</h3>
+<h4>Ces zones sont obligatoires pour envoyer le formulaire.</h4>
+<form name="monformulaire" method="post" action="http://bienvu.net/script.php" id="form1">
+	<table>
+		<tr>
+			<td>Société :</td>
+			<td id="couleurrouge"><input type="text" name="societe" id="societe">*</td>
+		</tr>
+		<tr>
+			<td>Personne à contacter :</td>
+			<td id="couleurrouge"><input type="text" name="contacter" id="personne">*</td>
+		</tr>
+		<tr>
+			<td>Adresse de l'entreprise :</td>
+			<td><textarea name="adresse" id="adresse"></textarea></td>
+		</tr>
+		<tr>
+			<td>Code postal :</td>
+			<td id="couleurrouge"><input type="text" name="codepostal" id="codepostal">*</td>
+		</tr>
+		<tr>
+			<td>Ville :</td>
+			<td id="couleurrouge"><input type="text" name="ville" id="ville">*</td>
+		</tr>
+		<tr>
+			<td>E-mail :</td>
+			<td id="couleurrouge"><input type="text" name="mail" id="mail">*</td>
+		</tr>
+		<tr>
+		<td>Selectionnez l'environnement technique du projet <p>
+		<select name="liste" id="listeenvironnement">
+			<option>Choisissez</option>
+			<option value="Access">Access</option>
+			<option value="Java">Java</option>
+			<option value="Delphi">Delphi</option>
+			<option value="Windev">Windev</option>
+			<option value="Visual Basic">Visual Basic</option>
+			<option value="Power Builder">Power Builder</option>
+			<option value="Internet">Internet</option>
+			<option value="Windows NT">Windows NT</option>
+			<option value="Unix">Unix</option>
+			<option value="SQL server">SQL Server</option>
+			<option value="Oracle">Oracle</option>
+			<option>Autres...</option>
+		</select></td></p>
+		<td><textarea name="environnement" id="zonetexteenvironnement"></textarea></td>
+		</tr>
+		<tr>
+			<td id="derniereligne" colspan="2">
+				<input type="button" name="envoyer" id="btnenvoyer" value="Envoyer"> 
+				<input type="reset" name="effacer">
+			</td>
+		</tr>
+	</table>
+</form>
+
+</body>
+</html>
+<script type="text/javascript" src="exercice11.js"></script>

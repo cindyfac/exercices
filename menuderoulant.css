@@ -1,0 +1,20 @@
+ul{
+	list-style-type:none;
+	font-weight: bold;
+	background-color: lightgreen;
+	width: 200px;
+}
+#BarreBleu{
+	background-color: lightblue;
+	height: 40px;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#BtnCatalogue{
+	background-color: orange;
+	height:40px;
+	width: 200px;
+}
+li:hover{
+	background-color: yellow;
+}
